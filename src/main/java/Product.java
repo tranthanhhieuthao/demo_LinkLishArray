@@ -46,11 +46,13 @@ public class Product {
         this.price = price;
     }
 
+
     @Override
     public String toString(){
         return "ID is:" +this.id
                 +" "
                 +"Product Line"
-                +" "+ this.productLine;
+                +" "+ this.price;
+
     }
 }
